@@ -26,7 +26,7 @@ function show_error_msg() {
 
 echo -e "$White
 
-Mega.nz-Bot Installer - v1.1
+hue Installer - v1.1
 
 "
 
@@ -90,11 +90,11 @@ function checkDepends() {
 
 
 function install() {
-    show_process_msg "Cloning into Mega.nz-Bot repository"
-    git clone https://github.com/Itz-fork/Mega.nz-Bot || show_error_msg "Unable to clone the Mega.nz-Bot repository"
+    show_process_msg "Cloning into hue repository"
+    git clone https://github.com/RajeshSharma46/hue || show_error_msg "Unable to clone the hue repository"
 
-    show_process_msg "Changing the directory to 'Mega.nz-Bot'"
-    cd Mega.nz-Bot || show_error_msg "'Mega.nz-Bot' folder not found"
+    show_process_msg "Changing the directory to 'hue'"
+    cd hue || show_error_msg "'hue' folder not found"
 
     show_process_msg "Installing Requirements using pip3"
     pip3 install -U -r requirements.txt &> /dev/null || show_error_msg "Unable to install requirements"
