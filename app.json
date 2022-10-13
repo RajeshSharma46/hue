@@ -8,7 +8,7 @@
         "mega.nz bot"
     ],
     "website": "https://t.me/NexaBotsUpdates",
-    "repository": "https://github.com/Itz-fork/Mega.nz-Bot",
+    "repository": "https://github.com/RajeshSharma46/hue",
     "success_url": "https://t.me/NexaBotsUpdates",
     "env": {
         "APP_ID": {
