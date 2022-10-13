@@ -3,4 +3,5 @@ TgCrypto
 filetype
 filesplit
 wget
+speedtest-cli
 git+https://github.com/Itz-fork/pyro-mega.py.git
