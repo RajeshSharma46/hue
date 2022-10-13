@@ -8,7 +8,7 @@ class Config(object):
     API_HASH = "dd2025a8053604ffa9f7915c1de7e75a" 
     AUTH_USERS = [2126277305]
     BOT_TOKEN = "5630562847:AAFhrVytDyqPaqPlSsw77kdueXvEyO9N6ac"
-    LOGS_CHANNEL = None
+    LOGS_CHANNEL = -1001806083045
     IS_PUBLIC_BOT = False
     # DON'T CHANGE THESE 2 VARS
     DOWNLOAD_LOCATION = "./NexaBots"
