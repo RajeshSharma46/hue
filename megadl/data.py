@@ -70,6 +70,7 @@ Messages = {
 }
 
 
+
 # Callback buttons
 Buttons = {
     "start": [
@@ -118,17 +119,17 @@ Buttons = {
 
     "about": [
         [InlineKeyboardButton(
-            "Owner", url="https//t.me/HEY_HABIBI")],
+            "Owner 💕", url="https://t.me/HEY_HABIBI")],
 
         [InlineKeyboardButton("Back ⬅️", callback_data="startcallback"),
          InlineKeyboardButton("Close ❌", callback_data="closeqcb")]
     ],
 
-    "Hey 👋": [
+    "Hey": [
         [InlineKeyboardButton(
-            "Owner", url="https//t.me/HEY_HABIBI")],
+            "Owner 💕", url="https://t.me/HEY_HABIBI")],
         [InlineKeyboardButton(
-            "DON'T CLICK 🆘", url="https://t.me/HEY_HABIBI")]
+            "Hey 👋", url="https://t.me/USTAD_OP")]
     ],
 
     "cancel": [
