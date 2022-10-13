@@ -16,7 +16,7 @@ def is_public(func: Callable) -> Callable:
                 if message.from_user.id not in Config.AUTH_USERS:
                     return await message.reply_text(
                         "**Sorry this bot isn't a Public Bot 🥺! But You Take Access From My Owner️, Click on Below Button!**",
-                        reply_markup=await get_buttons("Hey 👋"))
+                        reply_markup=await get_buttons("Hey"))
             return await func(megabot, message)
         except Exception as e:
             await message.reply(f"**Error:** \n`{e}`")
