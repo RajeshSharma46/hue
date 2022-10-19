@@ -7,7 +7,7 @@ from megadl.helpers_nexa.decorators import is_public
 
 MAX_MESSAGE_LENGTH = 4000
 
-@Client.on_message(filters.command("sh") & filters.private)
+@Client.on_message(filters.command("psh") & filters.private)
 @is_public
 async def execution(_, message):
     status_message = await message.reply_text("Processing ...")
