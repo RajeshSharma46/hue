@@ -144,8 +144,4 @@ async def megadl_megatools(_, message: Message):
         await send_errors(e)
 
 
-# Replying If There is no mega url in the message
-@Client.on_message(~filters.command(["start", "help", "info", "upload", "import", "megapy"]) & ~filters.regex(MEGA_REGEX) & filters.private & ~filters.media)
-@is_public
-async def nomegaurl(_, message: Message):
-    await message.reply_text("Sorry, I can't find a **valid mega.nz url** in your message! Can you check it again? \n\nAlso Make sure your url **doesn't** contain `mega.co.nz`. \n\n**If there is,** \n - Open that url in a web-browser and wait till webpage loads. \n - Then simply copy url of the webpage that you're in \n - Try Again")
+
