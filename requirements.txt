@@ -6,3 +6,4 @@ wget
 telethon
 asyncio
 git+https://github.com/Itz-fork/pyro-mega.py.git
+speedtest-cli
